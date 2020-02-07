@@ -47,6 +47,13 @@ namespace Complete
                 // ... set their material color to the color specific to this tank.
                 renderers[i].material.color = m_PlayerColor;
             }
+
+            // Setup tank camera
+            TankCamera tankCamera = m_Instance.GetComponentInChildren<TankCamera>();
+            tankCamera.Setup(m_PlayerNumber);
+
+            // Set gameObject name
+            m_Instance.name = "Player " + m_PlayerNumber;
         }
 
 
