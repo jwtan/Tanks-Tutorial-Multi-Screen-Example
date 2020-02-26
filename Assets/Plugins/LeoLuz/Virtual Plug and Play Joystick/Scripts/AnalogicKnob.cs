@@ -169,10 +169,10 @@ namespace LeoLuz.PlugAndPlayJoystick
 
             if (autoHide)
             {
-                imageUI.CrossFadeAlpha(0f, 5f, true);
+                imageUI.CrossFadeAlpha(0f, StartFadeOutDuration, true);
                 if (KnobBackground != null)
                 {
-                    KnobBackground.CrossFadeAlpha(0f, 5f, true);
+                    KnobBackground.CrossFadeAlpha(0f, StartFadeOutDuration, true);
                 }
             }
 
