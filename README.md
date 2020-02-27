@@ -13,7 +13,8 @@ Rendering to a specific display was easily achieved by using [Camera.SetTargetBu
 - `Assets/_Multi-Screen/` This folder contains most of the project files (code, prefabs, scenes etc.)
 - `Assets/Scripts/Managers/TankManager.cs` This original Tanks! Tutorial script was edited to insert some setup code
 
-### Demonstration
+### Video Example
+[![Watch the video](https://img.youtube.com/vi/mrj0sYHgGPI/maxresdefault.jpg)](https://youtu.be/mrj0sYHgGPI)
 
 ### Special Thanks
 [Virtual Plug and Play Joystick](https://assetstore.unity.com/packages/tools/input-management/virtual-plug-and-play-joystick-114288 "Virtual Plug and Play Joystick") on the Unity Asset Store
